@@ -1,0 +1,52 @@
+html,body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 540px;
+}
+.wrap{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 540px;
+    height: 100px;
+    margin: auto;
+    background-image: linear-gradient(#0168bf,#6ca9e1);
+    img{
+        float: left;
+        margin: 18px 24px 0 50px;
+    }
+    .timer{
+        float: left;
+        font-size: 40px;
+        line-height: 100px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: aliceblue;
+        span{
+            margin-left: 14px; 
+            font-size: 24px;
+        }
+    }
+    .week{
+        float: left;
+        height: 42px;
+        margin-left: 40px;
+        margin-top: 19px;
+        span{
+            display: block;
+            color: aliceblue;
+        }
+        span:nth-child(1){
+            height: 30px;
+            font-size: 20px;
+            line-height: 30px;
+        }
+        span:nth-child(2){
+            height: 23px;
+            font-size: 15px;
+            line-height: 23px;
+        }
+    }
+}
