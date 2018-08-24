@@ -5,7 +5,7 @@
 HTML结构
 
 
-
+```
 <div class="wrap">
         <div class="clock">
             <img src="images/clock.png" width="65" height="65" alt="clock">
@@ -25,7 +25,7 @@ HTML结构
             </p>
         </div>
     </div>
-
+```
 
 scss结构
 
